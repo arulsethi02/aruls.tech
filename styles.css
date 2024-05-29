@@ -25,9 +25,11 @@ h1 {
     color: #e1eef1;
 }
 
-h2 {
-    color: #eae7E6
-}    
+.subtext {
+    color: #666;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
 
 .dog-image {
     width: 100%;
@@ -35,4 +37,5 @@ h2 {
     max-width: 500px; /* Adjust this value to suit your layout */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
 }
