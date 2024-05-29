@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
         if (dogImage.src.includes("dog2.png")) {
             dogImage.src = "dog.png";
             counter++;
-            clickCounter.textContent = "Click counter: " + counter;
+            clickCounter.textContent = "Yawn Count: " + counter;
         } else {
             dogImage.src = "dog2.png";
         }
